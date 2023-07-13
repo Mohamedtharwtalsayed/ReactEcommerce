@@ -1,0 +1,26 @@
+.sss{
+
+    justify-content:space-between ;
+   border: black solid 2px ;
+  }
+  .span{
+    width: 3px;
+    height: 3px;
+    background-color: rgba(255, 99, 71, 0.393) !important;
+    color: aliceblue !important;
+  }
+  
+  .navbar {
+   position: sticky !important;
+   z-index: -999;
+    height: 62px;
+    width: 100%;
+    background-color: #ccc;
+  }
+  
+ 
+  
+  .main {
+    padding: 40px 20px;
+  }
+ 

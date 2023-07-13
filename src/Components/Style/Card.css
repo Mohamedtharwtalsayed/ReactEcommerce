@@ -1,0 +1,90 @@
+.card{
+    width: 270px !important;
+    height: 65vh !important;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 5px;
+    /* border: 3px solid brown !important; */
+  }
+  .card img {
+    width: 50% !important;
+    height: 50% !important;
+    transition: 2s;
+  }
+  .price{
+    color: #f4511e;
+  }
+  .card img:hover{
+    transform: scale(1.1) ;
+    transition: 1s;
+  }
+  .card-width{
+    width: 100%;
+    height: 80% !important;
+    /* border: 3px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .bg{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.452);
+    opacity: 0;
+    transition: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+  }
+  .bg:hover{
+    opacity: 1;
+    transition: 1s;
+  }
+  .change{
+    width: 14%;
+    height: 16%;
+    /* font-size: 50px; */
+    background-color: #fff;
+    padding: 8px !important;
+    margin: 3px;
+    border-radius: 10px;
+  }
+
+  .hover:hover {
+    background-color: #f4511e;
+    color: #fff !important;
+
+  }
+  .star{
+    width: 100% !important;
+    height: 30% ;
+    /* border: 3px solid black; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    gap: 9px;
+  }
+  .bi-star-fill , .bi-star{
+    margin: 0;
+    color: gold !important;
+    transition: 1s;
+  }
+  .bi-star-fill:hover{
+    transform: scale(2);
+    transition: 1s;
+  }
+  .one:hover{
+    transform: scale(2);
+    transition: 1s;
+  }
+  .one{
+    color: gold !important;
+  }

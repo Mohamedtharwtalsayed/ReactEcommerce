@@ -1,0 +1,19 @@
+.parent-1{
+    width: 100% !important;
+    height: 150vh;
+    display: flex;
+    text-align: center;
+    /* align-items: center; */
+    justify-content: center;
+    /* border: solid red 3px; */
+    /* margin: 10px !important; */
+    padding: 20px !important;
+    /* top: 0 !important; */
+}
+.parent-1 .card{
+    width: 600px !important;
+    height: 600px !important;
+    /* border: none !important; */
+    
+
+}

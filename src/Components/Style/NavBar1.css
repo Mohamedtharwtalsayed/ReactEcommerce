@@ -1,0 +1,60 @@
+
+  .space-around{
+    justify-content: space-between;
+  }
+  .span{
+    width: 33px !important;
+    height: 21px !important;
+    justify-content: center;
+    align-items: center !important;
+    color: black;
+  
+   
+  }
+  
+
+  svg ,.span, ul :hover,::after{
+    color: #DC3545 !important; }
+    svg , ul{
+      cursor: pointer;
+    }
+
+    .btn:hover{
+      color: white !important;
+    }
+    .parent11{
+      width: 100%;
+      align-items: flex-start !important;
+      justify-content: flex-end;
+      text-align: center !important;
+    }
+    .parent10{
+     width: 100%;
+      align-items: center !important ;
+     justify-content: space-around !important;
+     text-align: center;
+  
+    }
+    .parent10{
+      align-items: flex-end;
+      justify-content: end; 
+      display: flex;
+      text-align: end;
+    }
+form{
+  width: 100%;
+  padding: 3px 6px;
+  justify-content: center !important;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  
+}
+form .form-control{
+  width: 25%;
+  text-align: center;
+}
+.ssss:hover{
+  color: aliceblue !important;
+
+}

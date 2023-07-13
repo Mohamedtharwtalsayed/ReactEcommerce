@@ -1,0 +1,28 @@
+.container2{
+    width: 100%;
+    height: 35vh;  
+    justify-content:center !important;
+    display: flex;
+    flex-wrap: wrap ;
+    margin:30px;
+    
+  }
+  .parent2{
+    width: 30%;  
+    text-align: center;
+    margin: 1px;
+    line-height: 27px;
+    font-size: 20px;
+    
+  }
+  .icon svg{
+    width: 35px;
+    margin: 19px;
+    color: gray !important;
+  }
+  .text {
+    border-left: solid gray 1px
+  }
+   .text p{
+    color: gray;
+   }
